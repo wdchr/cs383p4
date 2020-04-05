@@ -20,3 +20,7 @@ The previous two sentences are absolute nonsense."
 in FriendlyPupper.png:
 "If I ever write a final exam for a security class, the answers are going to be:
 Ehh, I'm not going to write them down. This information probably wouldn't interest anyone."
+
+PupFriendsChars[0,1).txt: "Slow is smooth, smooth is fast"
+PuppyLeashChars[0,1).txt: "John (a shed) said that "A ship in harbor is safe, but that is not what ships are built for." But what, I ask, are harbors built for?"
+WideDogIsWide[0,1).txt: "This is a red herring.
