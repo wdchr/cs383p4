@@ -1,0 +1,7 @@
+char array of bits (1,0,...) to text  DONE
+char array of bits (1,0,...) to image DONE
+isolate and amplify last bits to image (allows us to see a break in pattern) DONE
+Clustering by four pixels DONE
+isolate nth bit of each pixel channel DONE
+isolate last nth bits of each pixel channel DONE
+read header encoded in image?
