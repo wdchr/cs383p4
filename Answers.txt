@@ -36,3 +36,11 @@ in DogDog.png (red channel only):
 When life gives you lemons:
 Throw those lemons on the ground, spit in life's eye, and refuse to leave until you get the damned limes you asked for the in first place."
 
+in Grooming.png (blue channel only)
+"Give a man a fish, you feed him for a day.
+Give a fish a man, it'll eat for weeks."
+
+in Woof.png (red channel only)
+"Water is hydrogen and oxygen.
+Oxygen is heavier than hydrogen.
+If you spin a glass of water the oxygen will be disproportionately pulled to the outside. If you spin it enough, the oxygen will separate from the hydrogen and then you've made myself a bomb."
