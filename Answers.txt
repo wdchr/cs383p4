@@ -26,3 +26,13 @@ Ehh, I'm not going to write them down. This information probably wouldn't intere
 PupFriendsChars[0,1).txt: "Slow is smooth, smooth is fast"
 PuppyLeashChars[0,1).txt: "John (a shed) said that "A ship in harbor is safe, but that is not what ships are built for." But what, I ask, are harbors built for?"
 WideDogIsWide[0,1).txt: "This is a red herring.
+
+in AlbumCover.png (red channel only):
+"Spellcheck is not enough when ordering from a general-purpose delivery company.
+Learned when I had to fix a circuit board with some smoldering iron."
+
+in DogDog.png (red channel only):
+"Wisdom borrowed from Uncle Jimmy.
+When life gives you lemons:
+Throw those lemons on the ground, spit in life's eye, and refuse to leave until you get the damned limes you asked for the in first place."
+
