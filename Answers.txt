@@ -44,3 +44,6 @@ in Woof.png (red channel only)
 "Water is hydrogen and oxygen.
 Oxygen is heavier than hydrogen.
 If you spin a glass of water the oxygen will be disproportionately pulled to the outside. If you spin it enough, the oxygen will separate from the hydrogen and then you've made myself a bomb."
+
+in WinkyFace.png
+There is a copy of WinkyFace.png, smaller obviously
