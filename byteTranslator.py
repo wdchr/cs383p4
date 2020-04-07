@@ -2,6 +2,26 @@ import csv
 import png
 import io
 
+def testForHeader(inFile):
+  bList = []
+  with open(inFile) as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=",")
+    for row in csv_reader:
+      for b in row:
+        bList.append(b)
+  cList = []
+  for b in bList:
+    # print("b",b)
+    cList.append(chr(int(b, 2)))
+  if (bList[0] == "00000000" and bList[1] == "00000000" or bList[2] == "00000000" and bList[3] == "00000000"):
+    print("**********************************************")
+    print("**********************************************")
+    print("**********************************************")
+    print("Possible Header found in "+inFile)
+    print("**********************************************")
+    print("**********************************************")
+    print("**********************************************")
+
 def toChars(inFile, outFile):
   bList = []
   with open(inFile) as csv_file:
@@ -27,24 +47,24 @@ def toImage(inFile,outFile, width=0, height=0):
         bList.append(int(b, 2))
 
   ##this part reads the header and sets the dimensions if unspecified when called (in real images he'll give us, header won't be in this format so this code is pretty useless LOL)
-  h = bList[0:4]
-  w = bList[4:8]
+  #h = bList[0:4]
+  #w = bList[4:8]
   #print(h,w)
-  widthtest = 0
-  heighttest = 0
+  #widthtest = 0
+  #heighttest = 0
   #numbers are stored BigEndian, calculate the 32 bit int and remove the header from the bytelist
-  for i in range(4):
-      del bList[0]
-      del bList[0]
-      widthtest += pow(2,(3-i))*w[i]
-      heighttest += pow(2,(3-i))*h[i]
+  #for i in range(4):
+      #del bList[0]
+      #del bList[0]
+      #widthtest += pow(2,(3-i))*w[i]
+      #heighttest += pow(2,(3-i))*h[i]
   #print("w=",widthtest,"h=",heighttest)
-  if width == 0:
-    width = widthtest
-  if height == 0:
-    height = heighttest
+  #if width == 0:
+    #width = widthtest
+  #if height == 0:
+    #height = heighttest
   #print(width,height)
-
+  print("check 0")
   if len(bList)<(3*width*height):
     print("Warning, data extended")
     print("Expected", 3*width*height, "values, recieved", len(bList))
@@ -55,15 +75,16 @@ def toImage(inFile,outFile, width=0, height=0):
     print("Expected", 3*width*height, "values, recieved", len(bList))
     while len(bList)>(3*width*height):
       del bList[-1]
-
+  print("check 1")
   p = []#list of tuples for each row i.e. p = [(r,g,b,r,g,b,...),(r,g,b,r,g,b,...),...]
   for i in range(0,len(bList),width*3):
     #print(i)
     t = [bList[i+k] for k in range(width*3)]
     p.append(tuple(t))
-
+  print("check 2")
   f = open(outFile,"wb")
   w = png.Writer(width,height,greyscale = False)
   w.write(f,p)
+  print("check 3")
   f.close()
   return 0
