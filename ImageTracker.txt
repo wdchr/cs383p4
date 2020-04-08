@@ -2,7 +2,7 @@ AlbumCover.png
 (red channel) "Spellcheck is not enough when ordering from a general-purpose delivery company. Learned when I had to fix a circuit board with some smoldering iron."
 
 Brothers.png
-Image found in red channel
+Image found in red channel, image found in that image
 
 Brothers_small.png
 (all channels) "The next sentence is true. The previous sentence is false. The previous two sentences are absolute nonsense."
@@ -32,7 +32,7 @@ Gadget_tiny.png
 
 
 GadgetRadiator.png
-
+Jaden Smith?
 
 Grooming.png
 (blue channel) "Give a man a fish, you feed him for a day. Give a fish a man, it'll eat for weeks."
