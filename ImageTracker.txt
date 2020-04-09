@@ -54,7 +54,7 @@ StegTest.png
 
 
 TheGrassIsGreener.png
-
+Picture of tall dog with text inside it
 
 TripleThreat.png
 
