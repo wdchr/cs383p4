@@ -83,3 +83,8 @@ There is a picture of two cats, in which is a picture of a dog
 
 in GadgetRadiator.png
 "Jaden Smith?"
+
+in TheGrassIsGreener.png
+picture of a large dog, inside that is the following text:
+      "When performing a live, unrehearsed magic trick for a security class.
+Make it crystal clear to your plant which direction they should be facing before you start communicating "left", "center", and "right" to them telepathically."
